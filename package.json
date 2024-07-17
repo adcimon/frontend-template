@@ -1,14 +1,14 @@
 {
 	"name": "frontend-template",
 	"version": "0.0.1",
+	"description": "",
+	"author": "adcimon",
+	"license": "MIT",
 	"scripts": {
 		"start": "node esbuild.config.mjs --start",
 		"build": "node esbuild.config.mjs --build",
 		"clean": "node esbuild.config.mjs --clean"
 	},
-	"author": "adcimon",
-	"license": "MIT",
-	"description": "",
 	"dependencies": {
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1"
